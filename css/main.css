@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    background-color: rgba(243, 243, 213, 0.94);
+}
+
+.wrapper {
+    top: 0;
+    left: 0;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pokemonts-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pokemons-height {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemons-weight {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemons-candy {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemons-candy-count {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemons-egg {
+    display: flex;
+    flex-direction: column;
+}
+
+.spawn-chance {
+    display: flex;
+    flex-direction: column;
+} 
+
+.pokemons-avg-spawns {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemons-spawn-time {
+    display: flex;
+    flex-direction: column;
+}
