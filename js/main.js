@@ -16,7 +16,7 @@
         // const pokemontsId = document.createElement("p", "pokemons-id", currentPokemons[i].id);
     const pokemontsId = document.createElement("p");
     pokemontsId.className = "pokemons-id";
-    pokemontsId.textContent = pokemons[i].id;
+    pokemontsId.textContent = currentPokemons.id;
     
 
     const pokemontsNum = document.createElement("p", "pokemons-num", currentPokemons.num);
